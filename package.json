@@ -1,0 +1,39 @@
+{
+  "name": "vue-app",
+  "version": "0.0.1",
+  "description": "Vue 2.5/Webpack 3.8 boilerplate",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TzolkinB/vue-webpack-boilerplate"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": ""
+  },
+  "author": "Kimberly Bell",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
